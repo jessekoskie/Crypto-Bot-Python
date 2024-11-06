@@ -7,9 +7,9 @@ import threading
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Binance API keys (replace with your actual API keys)
-API_KEY = 'fnGInvArAH6MgE018Ewjz6y8uUvlXJ1vNfGrWY4HKZWdx61mfeA7ZpBRu1sdgYRM'
-API_SECRET = 'CUNMaiCFv9NKskbiUsiOHZj5BGQoR9bZNLO5mmwjFkwccQoRXsj6o9QZcWa4YnVz'
+# Binance API keys 
+API_KEY = ''
+API_SECRET = ''
 
 # Initialize Binance client
 client = Client(API_KEY, API_SECRET)
